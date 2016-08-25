@@ -24,6 +24,8 @@
 				<br>
 				<textarea name="msg" rows="8" cols="50" maxlength="500" placeholder="Entrez votre message"></textarea>
 				<br><br>
+				<input type="file" accept="image/*" name="file">
+				<br>
 				<?php include("data.php"); ?>
 				<input type="submit" value="Envoyez"/>
 		</form>
